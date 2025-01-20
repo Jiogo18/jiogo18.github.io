@@ -1,3 +1,5 @@
-baseURL = 'https://example.org/'
+baseURL = 'https://jiogo18.github.io/'
 languageCode = 'en-us'
-title = 'My New Hugo Site'
+license = 'https://github.com/Jiogo18/jiogo18.github.io/blob/main/LICENSE'
+theme = 'hugo-theme-terminal'
+title = 'My portfolio'
