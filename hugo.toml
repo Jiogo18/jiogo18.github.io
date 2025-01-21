@@ -4,7 +4,7 @@ license = 'https://github.com/Jiogo18/jiogo18.github.io/blob/main/LICENSE'
 theme = 're-terminal'
 title = "Jiogo18' Personal Website"
 
-paginate = 5
+pagination.pagerSize = 5
 enableemoji = true
 
 [params]
