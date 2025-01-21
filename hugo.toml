@@ -1,5 +1,47 @@
 baseURL = 'https://jiogo18.github.io/'
 languageCode = 'en-us'
 license = 'https://github.com/Jiogo18/jiogo18.github.io/blob/main/LICENSE'
-theme = 'hugo-theme-terminal'
-title = 'My portfolio'
+theme = 're-terminal'
+title = "Jiogo18' Personal Website"
+
+paginate = 5
+enableemoji = true
+
+[params]
+  # dir name of your main content (default is `content/posts`).
+  # the list of set content will show up on your index page (baseurl).
+  contentTypeName = "posts"
+  themeColor = "orange"
+  showMenuItems = 2
+  showLanguageSelector = false
+  fullWidthTheme = false
+  centerTheme = true
+  showLastUpdated = false
+
+[languages]
+  [languages.en.params]
+    languageName = "English"
+    title = "Jiogo18' Personal Website"
+    subtitle = ""
+    owner = "Jiogo18"
+    keywords = ""
+    copyright = ""
+    menuMore = "Show more"
+    readMore = "Read more"
+    readOtherPosts = "Read other posts"
+    newerPosts = "Newer posts"
+    olderPosts = "Older posts"
+    missingContentMessage = "Page not found..."
+    missingBackButtonLabel = "Back to home page"
+    minuteReadingTime = "min read"
+    words = "words"
+
+    [languages.en.params.logo]
+      logoText = "Home"
+      logoHomeLink = "/"
+
+    [languages.en.menu]
+      [[languages.en.menu.main]]
+        identifier = "about"
+        name = "About"
+        url = "/about"
