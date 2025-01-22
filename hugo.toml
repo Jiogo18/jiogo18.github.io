@@ -12,7 +12,7 @@ enableemoji = true
   # the list of set content will show up on your index page (baseurl).
   contentTypeName = "posts"
   themeColor = "orange"
-  showMenuItems = 2
+  showMenuItems = 4
   showLanguageSelector = false
   fullWidthTheme = false
   centerTheme = true

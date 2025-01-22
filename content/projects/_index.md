@@ -5,3 +5,7 @@ title = 'Projects'
 author = 'Jiogo18'
 color = 'pink'
 +++
+
+Coming soon!
+
+This will be a time capsule of projects I have done, so I can move on.

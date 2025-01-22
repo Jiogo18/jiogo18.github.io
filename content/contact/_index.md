@@ -5,3 +5,8 @@ title = 'Contact'
 author = 'Jiogo18'
 color = 'cyan'
 +++
+
+You can contact me:
+
+- on [GitHub](https://github.com/Jiogo18)
+- on [Discord](https://discordapp.com/users/175985476165959681)

@@ -4,4 +4,9 @@ draft = false
 title = ''
 +++
 
-Coming soon
+Welcome to my personal website
+
+This website is mainly to talk [about me](./about/).
+
+I will post about interesting [projects](./projects/) I did.
+And perhaps more.
