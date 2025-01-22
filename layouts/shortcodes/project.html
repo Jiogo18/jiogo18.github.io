@@ -1,0 +1,7 @@
+<ul>
+	{{- with $.Page.Params.sources -}}<li><a href="{{ . }}">Sources</a></li>{{- end -}}
+	{{- with $.Page.Params.website -}}<li><a href="{{ . }}">Website</a></li>{{- end -}}
+	{{- with $.Page.Params.createDate -}}<li>Created in {{ . }}</li>{{- end -}}
+	{{- with $.Page.Params.startDate -}}<li>Started in {{ . }}</li>{{- end -}}
+	{{- with $.Page.Params.joinDate -}}<li>Joined in {{ . }}</li>{{- end -}}
+</ul>
