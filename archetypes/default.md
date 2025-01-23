@@ -1,5 +1,6 @@
-+++
-date = '{{ .Date }}'
-draft = true
-title = '{{ replace .File.ContentBaseName "-" " " | title }}'
-+++
+---
+color: ""
+date: {{ .Date }}
+draft: true
+title: {{ replace .Name "-" " " | title }}
+---

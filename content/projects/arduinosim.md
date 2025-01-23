@@ -1,14 +1,19 @@
-+++
-date = '2025-01-22T00:31:54-05:00'
-draft = false
-title = 'Arduino Sim'
-tags = ['C++', 'Qt', 'Arduino', '2021']
-description = "An Arduino simulator for a line following robot with 1 to 3 sensors."
-showFullContent = false
-color = 'red'
-sources = 'https://github.com/Jiogo18/ArduinoSim'
-createDate = 'june 2021'
-+++
+---
+color: red
+date: "2025-01-22T00:31:54-05:00"
+draft: false
+title: Arduino Sim
+description: An Arduino simulator for a line following robot with 1 to 3 sensors.
+showFullContent: false
+createDate: june 2021
+sources: https://github.com/Jiogo18/ArduinoSim
+website:
+tags:
+- C++
+- Qt
+- Arduino
+- 2021
+---
 
 ## Highlights
 
