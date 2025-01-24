@@ -70,7 +70,7 @@ About half of the animations [here](https://jiogo18.github.io/LED-Cube/WEB/anima
 >}}
 {{<image
 	src="chroma-2d.png"
-	alt="b"
+	alt="A RGB color wheel on a rectangular pixelated canvas"
 	width=400
 	position="center"
 >}}
@@ -80,7 +80,7 @@ About half of the animations [here](https://jiogo18.github.io/LED-Cube/WEB/anima
 Credits to Robotek
 {{<image
 	src="chroma-3d.png"
-	alt="b"
+	alt="A RGB color wheel on the LED-Cube viewer. Only the two front layers of the LED-Cube are colored."
 	width=400
 	position="center"
 >}}
