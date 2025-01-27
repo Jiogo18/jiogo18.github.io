@@ -67,6 +67,7 @@ CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE. -->
     <!-- Cover image found -->
     <img src="{{ $cover }}"
       class="post-cover"
+      height="200"
       alt="{{ .Title | plainify | default " " }}"
       title="{{ $ctx.Params.CoverCredit |plainify|default "Cover Image" }}" />
   {{ end }}
