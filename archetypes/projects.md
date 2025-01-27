@@ -4,6 +4,7 @@ date: {{ .Date }}
 draft: true
 title: {{ replace .Name "-" " " | title }}
 description:
+cover:
 showFullContent: false
 createDate:
 sources:
