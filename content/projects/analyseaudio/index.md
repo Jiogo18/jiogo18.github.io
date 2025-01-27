@@ -4,7 +4,7 @@ date: 2025-01-26T23:21:58-05:00
 draft: false
 title: AnalyseAudio
 description: AnalyseAudio is a realtime spectrogram viewer made in two weeks and written in C# with the framework WinUI 3.
-cover: spectrogram-small.webp
+cover: cover.webp
 showFullContent: false
 createDate: june 2022
 sources: https://github.com/Jiogo18/AnalyseAudio

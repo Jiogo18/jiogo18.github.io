@@ -4,6 +4,7 @@ date: 2025-01-23T00:26:05-05:00
 draft: false
 title: JigMath
 description: A real-time equation parser and solver with syntax highlighting capabilities
+cover: cover.webp
 showFullContent: false
 createDate: january 2022
 sources: https://github.com/Jiogo18/JigMath

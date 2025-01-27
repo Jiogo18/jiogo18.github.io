@@ -4,6 +4,7 @@ date: 2025-01-24T01:35:27-05:00
 draft: false
 title: MiniTools
 description: A Minecraft plugin with various tools
+cover: mt-commands.png
 showFullContent: false
 createDate: august 2022
 sources: https://github.com/Jiogo18/MiniTools-Plugin

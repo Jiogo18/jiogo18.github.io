@@ -4,6 +4,7 @@ date: "2025-01-22T00:31:54-05:00"
 draft: false
 title: Arduino Sim
 description: An Arduino simulator for a line following robot with 1 to 3 sensors.
+cover: cover.webp
 showFullContent: false
 createDate: june 2021
 sources: https://github.com/Jiogo18/ArduinoSim
