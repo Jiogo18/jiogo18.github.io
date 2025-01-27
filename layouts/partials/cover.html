@@ -37,18 +37,17 @@ CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE. -->
 
 
 {{- $cover := false -}}
-{{- $autoCover := default $.Site.Params.autoCover false }}
 
 {{- if index $ctx.Params "cover" -}}
-  {{- if .Resources.GetMatch $ctx.Params.Cover }}
-    {{- $cover = (.Resources.GetMatch $ctx.Params.Cover).RelPermalink -}}
+  {{- if $ctx.Resources.GetMatch $ctx.Params.Cover }}
+    {{- $cover = ($ctx.Resources.GetMatch $ctx.Params.Cover).RelPermalink -}}
   {{- else -}}
     {{- $cover = absURL $ctx.Params.Cover -}}
   {{- end -}}
 {{- else if $.Site.Params.AutoCover -}}
   {{- if (not $ctx.Params.Cover) -}}
-    {{- if .Resources.GetMatch "cover.*" -}}
-      {{- $cover = (.Resources.GetMatch "cover.*").RelPermalink -}}
+    {{- if $ctx.Resources.GetMatch "cover.*" -}}
+      {{- $cover = ($ctx.Resources.GetMatch "cover.*").RelPermalink -}}
     {{- end -}}
   {{- end -}}
 {{- end -}}
