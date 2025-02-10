@@ -1,0 +1,5 @@
+
+table figure figcaption {
+	color: var(--accent);
+	background: color-mix(in srgb, var(--accent), transparent 80%);
+}
