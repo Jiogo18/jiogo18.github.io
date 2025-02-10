@@ -35,8 +35,8 @@ This simulator allowed us to test our own line follower algorithm without acess 
 
 ## Overview
 
-| One sensor | Two sensors |
-| :--------: | :---------: |
+| **`One sensor`** | **`Two sensors`** |
+| :--------------: | :---------------: |
 {{<image
 	src="one-sensor.png"
 	alt="A Robot, represented by an Arduino card with 1 sensor, arrived at the end of a curved line."
@@ -49,4 +49,30 @@ This simulator allowed us to test our own line follower algorithm without acess 
 	title="Robot with 2 sensors halfway on the line"
 	width=400
 	position="center"
+>}}
+
+| **`One sensor`** |
+| :--------------: |
+{{<video
+	src="1-sensor.mp4"
+	alt="A Robot, represented by an Arduino card with 1 sensor. The starting area is on the left and the finish line is on the right."
+	title="Robot with 1 sensor"
+	position="center"
+	width=758
+>}}
+| **`Two sensors`** |
+{{<video
+	src="2-sensors.mp4"
+	alt="A Robot, represented by an Arduino card with 2 sensors. The starting area is on the left and the finish line is on the right."
+	title="Robot with 2 sensors"
+	position="center"
+	width=758
+>}}
+| **`Three sensors`** |
+{{<video
+	src="3-sensors.mp4"
+	alt="A Robot, represented by an Arduino card with 3 sensors. The starting area is on the left and the finish line is on the right."
+	title="Robot with 3 sensors"
+	position="center"
+	width=758
 >}}
