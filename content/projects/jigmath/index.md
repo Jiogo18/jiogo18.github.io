@@ -78,9 +78,9 @@ About half of the animations [here](https://jiogo18.github.io/LED-Cube/WEB/anima
 
 | Color wheel on LED-Cube |
 | :------------------: |
-Credits to Robotek
+Credits to [Robotek](https://github.com/Robotek-Orleans/Led-Cube)
 {{<image
-	src="chroma-3d.png"
+	src="chroma-3d.webp"
 	alt="A RGB color wheel on the LED-Cube viewer. Only the two front layers of the LED-Cube are colored."
 	width=400
 	position="center"
