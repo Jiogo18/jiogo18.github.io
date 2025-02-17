@@ -59,7 +59,7 @@ The idea is to position two Raspberry Pi with a laser and a sensor each, in orde
 
 ## Overview
 
-| **`Raspberry Pi Box`** | **`Sensor and laser support`** |
+| **`Raspberry Pi Box made with Fusion360`** | **`Sensor and laser support`** |
 | :--------------------: | :----------------------------: |
 {{<figure
 	src="raspberrypi4-box-alpha.webp"
@@ -82,7 +82,10 @@ The idea is to position two Raspberry Pi with a laser and a sensor each, in orde
 
 | **`Dashboard and console`** |
 | :-------------------------: |
-...
+{{<figure
+	src="dashboard-07-06-2020.webp"
+	alt="Dashboard on the left with temperature, CPU/RAM usage, laser status and stream stats. The biggest part of the screen is occupied by a console, in which the user typed some commands to configure the Raspberry Pi."
+>}}
 | **`Stress test received vs sent`** |
 {{<figure
 	src="stress-test-abc-31-03-20.webp"
