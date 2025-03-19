@@ -125,12 +125,10 @@ The Qt version is still more mature, though.
 {{<video
 	src="2021/2021-04-water/2021-04-06-glass.webm"
 	caption="Showcase of camera entering glass. The glass acts as a lens. Inside it, the vision is even more deformed. Also, a piece of glowstone creates glare when the camera moves."
-	width=400rm
 	position="center"
 >}} | {{<video
 	src="2021/2021-04-water/2021-04-06-water.webm"
 	caption="Showcase of camera entering water. The diffraction is changed when the camera moves around it. There is also a reflection of the water in a mirror next to it."
-	width=400rm
 	position="center"
 >}}
 
@@ -163,6 +161,7 @@ The value of the noise is represented by the color of the block of their transpa
 	src="2021/2021-05-noise/64x64x64-80s.webp"
 	caption="A detailed view of Perlin noise in 3 dimensions, looking like a cave network."
 	position="center"
+	style="max-height: 500px;"
 >}}
 
 ### Experiments
@@ -175,19 +174,16 @@ The value of the noise is represented by the color of the block of their transpa
 >}} | {{<video
 	src="2021/fails/2021-04-03-prism.webm"
 	caption="Everything is a prism."
-	width=400rm
 	position="center"
 >}} |
 | :-: | :-: |
 {{<video
 	src="2021/fails/2021-03-25-leak.webm"
 	caption="The glowstone slab doesn't compute and keep the previous color instead."
-	width=400rm
 	position="center"
 >}} | {{<video
 	src="2021/fails/2021-03-25-too-much-light.webm"
 	caption="The light from the glowstone is not correctly stored, resulting in poor RGB rendering."
-	width=400rm
 	position="center"
 >}}
 
@@ -196,13 +192,13 @@ The value of the noise is represented by the color of the block of their transpa
 | {{<video
 	src="2023/2023-opencl/2023-02-20-rgb.webm"
 	caption="RGB space."
-	width=400rm
+	style="max-width: 400px;"
 	position="center"
 >}} |
 | :-: |
 {{<video
 	src="2023/2023-opencl/2023-02-21-cubes.webm"
 	caption="4 cubes of different colors."
-	width=400rm
+	style="max-width: 400px;"
 	position="center"
 >}}
