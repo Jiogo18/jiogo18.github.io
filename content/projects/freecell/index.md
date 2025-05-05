@@ -1,7 +1,7 @@
 ---
 color: yellow
 date: 2025-05-03T14:24:44-04:00
-draft: true
+draft: false
 title: FreeCell
 description: FreeCell in Casio BASIC and React.
 cover: freecell-cards.png
