@@ -4,7 +4,7 @@ draft: false
 title: "Home page"
 ---
 
-Welcome to my personal website
+Welcome to my personal website! :wave:
 
 This website is mainly to talk [about me](./about/).
 

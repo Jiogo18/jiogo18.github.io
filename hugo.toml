@@ -13,28 +13,32 @@ enableemoji = true
   contentTypeName = "posts"
   themeColor = "orange"
   showMenuItems = 4
-  showLanguageSelector = false
+  showLanguageSelector = true
   fullWidthTheme = false
   centerTheme = true
   showLastUpdated = false
+  readingTime = true
 
 [languages]
-  [languages.en.params]
+  [languages.en]
+    languageCode = 'en-US'
     languageName = "English"
+    weight = 9
     title = "Jiogo18' Personal Website"
-    subtitle = ""
-    owner = "Jiogo18"
-    keywords = ""
-    copyright = ""
-    menuMore = "Show more"
-    readMore = "Read more"
-    readOtherPosts = "Read other posts"
-    newerPosts = "Newer posts"
-    olderPosts = "Older posts"
-    missingContentMessage = "Page not found..."
-    missingBackButtonLabel = "Back to home page"
-    minuteReadingTime = "min read"
-    words = "words"
+    [languages.en.params]
+      subtitle = ""
+      owner = "Jiogo18"
+      keywords = ""
+      copyright = ""
+      menuMore = "Show more"
+      readMore = "Read more"
+      readOtherPosts = "Read other posts"
+      newerPosts = "Newer posts"
+      olderPosts = "Older posts"
+      missingContentMessage = "Page not found..."
+      missingBackButtonLabel = "Back to home page"
+      minuteReadingTime = "min read"
+      words = "words"
 
     [languages.en.params.logo]
       logoText = "Home"
@@ -43,15 +47,62 @@ enableemoji = true
     [languages.en.menu]
       [[languages.en.menu.main]]
         identifier = "about"
-        name = "About"
+        name = "🎓About"
         url = "/about"
+        weight = 1
 
       [[languages.en.menu.main]]
         identifier = "contact"
-        name = "Contact Me"
+        name = "📫Contact Me"
         url = "/contact"
+        weight = 9
 
       [[languages.en.menu.main]]
         identifier = "projects"
-        name = "Main Projects"
+        name = "🖱️Main Projects"
         url = "/projects"
+        weight = 3
+
+  [languages.fr]
+    languageCode = 'fr-FR'
+    languageName = "Français"
+    weight = 8
+    title = "Site de Jiogo18"
+
+    [languages.fr.params]
+      subtitle = ""
+      owner = "Jiogo18"
+      keywords = ""
+      copyright = ""
+      menuMore = "Voir plus"
+      readMore = "Lire"
+      readOtherPosts = "Lire d'autres posts"
+      newerPosts = "Posts plus récents"
+      olderPosts = "Posts plus anciens"
+      missingContentMessage = "Page introuvable..."
+      missingBackButtonLabel = "Retour à l'accueil"
+      minuteReadingTime = "min de lecture"
+      words = "mots"
+
+    [languages.fr.params.logo]
+      logoText = "Home"
+      logoHomeLink = "/fr/"
+
+    [languages.fr.menu]
+      [[languages.fr.menu.main]]
+        identifier = "about"
+        name ="🎓À propos"
+        url = "/fr/about"
+        weight = 1
+
+      [[languages.fr.menu.main]]
+        identifier = "contact"
+        name = "📫Contact"
+        url = "/fr/contact"
+        weight = 9
+
+      [[languages.fr.menu.main]]
+        identifier = "projects"
+        name = "🖱️Projets"
+        url = "/fr/projects"
+        weight = 2
